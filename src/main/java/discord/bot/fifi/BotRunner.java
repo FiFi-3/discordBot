@@ -13,7 +13,7 @@ public class BotRunner {
     public static void main(String[] args) {
             try {
                     Server server = new Server();
-                    final String TOKEN = "MTEyMDM4MjI3MDQ3NDI5NzM3Ng.G9uKu4.7niMbOjWiliyPINcFmyE37KzhuD5nBM3fFTbDw";
+                    final String TOKEN = "NoTokenHere";
                     JDABuilder bot = JDABuilder.createDefault(TOKEN);
                     if (server.getStatus()) {
                             bot.setActivity(Activity.playing("Keksstube - ist online"));
